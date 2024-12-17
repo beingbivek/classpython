@@ -1,0 +1,21 @@
+n = int(input("Enter a number: "))
+if n % 3 == 0 and n % 5 == 0:
+    print("FizzBuzz")
+elif n % 5 == 0:
+    print("Buzz")
+elif n % 3 == 0:
+    print("Fizz")
+else:
+    print(n)
+
+# Another method
+three,five = n % 3 == 0,n % 5 == 0
+if three or five:
+    if three and five:
+        print("FizzBuzz")
+    elif five:
+        print("Buzz")
+    else:
+        print("Fizz")
+else:
+    print(n)
