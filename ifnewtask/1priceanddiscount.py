@@ -1,6 +1,12 @@
-price = int(input("Enter the price of an item: "))
+price = float(input("Enter the price of the item: "))
+
 if price > 1000:
-    price *= .90
+    discount = price * 0.10
+    final_price = price - discount
 elif price > 500:
-    price *= .95
-print(f"The final price after discount is: Rs. {price}")
+    discount = price * 0.05
+    final_price = price - discount
+else:
+    final_price = price
+
+print("The final price is:", final_price)
