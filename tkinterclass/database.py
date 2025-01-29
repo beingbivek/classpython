@@ -88,15 +88,6 @@ def update():
     conn.commit()
     conn.close()
     roots.destroy()
-   
- 
- 
- 
- 
- 
- 
-
- 
  
  
 e1= Entry(root, width = 30)
@@ -104,10 +95,6 @@ e1.pack()
  
 e2= Entry(root, width = 30)
 e2.pack()
- 
-
- 
- 
  
 btn = Button(root, text= 'Button', command=add)
 btn.pack()
@@ -118,16 +105,13 @@ btn2.pack()
 btn3 = Button(root, text = 'Delete', command = delete)
 btn3.pack()
  
- 
 btn4 = Button(root, text = 'Edit', command = edit)
 btn4.pack()
  
 e3= Entry(root, width = 30)
 e3.pack()
  
- 
 lbl = Label(text='')
 lbl.pack()
- 
  
 mainloop()
