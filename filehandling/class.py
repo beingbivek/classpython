@@ -1,0 +1,6 @@
+f = open('D:\Bivek Study Files\Python Coding\filehandling\abc.txt')
+c = f.read()
+f1 = open('D:\Bivek Study Files\Python Coding\filehandling\python.txt','w')
+f1.write(c)
+f.close()
+f1.close()
