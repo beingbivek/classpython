@@ -7,7 +7,7 @@
 # a.pop()
 # print(a)
 
-a = {'ram' : 1}
+# a = {'ram' : 1}
 # k = a.values()
 # l = list(k)
 # print(type(l))
@@ -15,6 +15,10 @@ a = {'ram' : 1}
 # c = {b[0].upper():b[1]}
 # print(c)
 
-a.pop('ram')
-a['RAM'] = 1
-print(a)
+# a.pop('ram')
+# a['RAM'] = 1
+# print(a)
+
+d = {'a':1,'b':2}
+v = d.pop('b')
+print(v,d)
